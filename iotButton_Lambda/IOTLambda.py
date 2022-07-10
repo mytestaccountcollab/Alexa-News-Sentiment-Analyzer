@@ -7,6 +7,7 @@ import boto3
 #it grabs today's headlines, does sentiment analysis using AWS Comprehend
 #and saves the news along with sentiment into a dynamodb table
 #lambda is optimized
+### lambda is very optimized###
 def lambda_handler(event, context):
     # TODO implement
     print("button pressed")
